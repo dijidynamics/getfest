@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "getfest",
+    "slug": "getfest",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dijidynamics.getfest"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dijidynamics.getfest"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3b32b2b3-70d8-4ef9-bbf0-bcc9dddf3a77"
+      }
+    },
+    "owner": "dijidynamics",
+    "updates": {
+      "url": "https://u.expo.dev/3b32b2b3-70d8-4ef9-bbf0-bcc9dddf3a77"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
